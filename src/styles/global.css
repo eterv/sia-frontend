@@ -1,0 +1,26 @@
+/*
+  attribute - ordering
+
+  display & flex (display, flex, ...)
+  positioning (position, left, top, z-index, overflow ...)
+  sizing (width, height, max-width, max-height, ...)
+  margin & padding
+  border (border, border-radius, ...)
+  background (background, background-color, ...)
+  text color (color)
+  text (font-size, line-height, text-align, word-break, white-space, ...)
+  cursor
+  animation & transition
+  etc.
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
